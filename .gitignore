@@ -1,0 +1,8 @@
+# Ignore bin folder at repository root
+/bin/
+
+# Ignore common C build artifacts
+*.o
+*.obj
+*.exe
+*.out
