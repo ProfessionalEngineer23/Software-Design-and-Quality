@@ -9,6 +9,7 @@ int main()
 int n = 0;
 
 printf("Please input a multi digit value.\nThis program will get the sum of the single digits:\n");
+
 while (scanf("%d", &n) != 1) 
 {
     printf("Invalid input. Please enter a valid integer.\n");
@@ -16,6 +17,7 @@ while (scanf("%d", &n) != 1)
 }
 
 int sum = 0;
+    
 while(n > 0)
 {
     sum += n % 10;
@@ -43,4 +45,5 @@ To Compile:
 To Run:
 - bin/main
 /////////////////////////////////////////////////////////////
+
 */
